@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 data "aws_instance" "demo" {
-  
+
 }
 
 output "instance" {
