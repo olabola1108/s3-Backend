@@ -4,8 +4,8 @@
     on: [push]
 
     env:
-        aws_access_key_id: ${{ secrets.ACCESS_KEY }} 
-        aws_secret_access_id: ${{ secrets.SECRET_KEY }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }} 
+        AWS_SECRET_ACCESS_ID: ${{ secrets.SECRET_KEY }}
 
     jobs:
         ec2:
