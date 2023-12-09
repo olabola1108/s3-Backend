@@ -2,3 +2,4 @@ new_ssh
 new_ssh.pub
 *terraform*
 .terraform*
+actions-runner/
